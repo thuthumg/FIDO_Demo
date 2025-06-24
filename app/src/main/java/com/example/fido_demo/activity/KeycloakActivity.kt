@@ -43,18 +43,11 @@ class KeycloakActivity : BaseActivity() {
             authService.performTokenRequest(tokenRequest) { tokenResponse, tokenEx ->
                 if (tokenResponse != null) {
                     authState.update(tokenResponse, tokenEx)
-                    Log.d("Dashboard", "Token state ${authState.idToken}")
-                    Log.d("Dashboard", "Token accesstoken ${authState.accessToken}")
-
                     AuthStateManager.writeAuthState(this, authState)
 
                     val gson = GsonBuilder().setPrettyPrinting().create()
                     val json = gson.toJson(authState)
-                    Log.d("MainActivity", "json data ${json}")
-
-
-                    val idToken = authState.idToken
-                    Log.d("Token", "ID Token: $idToken")
+                    Log.d("KeycloakActivity", "json data ${json}")
 
                     startActivity(Intent(this, DashboardActivity::class.java))
                     finish()
