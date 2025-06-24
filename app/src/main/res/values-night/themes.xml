@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FIDO_Demo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+    <style name="ButtonContainedFullRed">
+        <item name="android:fontFamily">@font/rubik_medium</item>
+        <item name="android:textSize">@dimen/font_size_body_3</item>
+        <item name="android:textColor">@color/colorAccentText</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">@dimen/button_padding</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+</resources>

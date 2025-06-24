@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_success_msg">Logged in successfully</string>
+    <string name="txt_log_out">Log Out</string>
+    <string name="txt_log_in">Log In</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="font_size_headline_1">18sp</dimen>
+    <dimen name="font_size_headline_2">19sp</dimen>
+    <dimen name="font_size_headline_3">22sp</dimen>
+    <dimen name="font_size_headline_4">24sp</dimen>
+    <dimen name="font_size_headline_6">30sp</dimen>
+    <dimen name="font_size_body_0">10sp</dimen>
+    <dimen name="font_size_body_1">11sp</dimen>
+    <dimen name="font_size_body_2">13sp</dimen>
+    <dimen name="font_size_body_3">16sp</dimen>
+    <dimen name="font_size_body_4">14sp</dimen>
+    <dimen name="font_size_body_5">18sp</dimen>
+    <dimen name="font_size_body_6">17sp</dimen>
+    <dimen name="font_size_hint">14sp</dimen>
+    <dimen name="font_size_regular">14sp</dimen>
+    <dimen name="font_size_medium">16sp</dimen>
+    <dimen name="font_size_large">18sp</dimen>
+    <dimen name="font_size_card_icon_text">11sp</dimen>
+    <dimen name="font_size_card_icon_text2">14sp</dimen>
+    <dimen name="button_corner_radius">4dp</dimen>
+    <dimen name="button_padding">10dp</dimen>
+    <dimen name="corner_radius">4dp</dimen>
+    <dimen name="textfield_padding">1dp</dimen>
+    <dimen name="stroke_width">2dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+
+</resources>
